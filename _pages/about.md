@@ -14,4 +14,4 @@ Passionate about “Neuromorphic” technologies -inspired by the human brain- m
 
 Ardent about the field of AI and its promises, I am determined to dedicate my technical skills in productive service to our society and to become one of the useful pioneers for an AI-powered, more responsible, and more equitable world!
 
-<img src="/images/download_logo.png" alt="download_logo" width="20"/> [Download my profesional resume](/files/Resume_ROUILLARD_Louis.pdf)
+<img src="/images/download_logo.png" alt="download_logo" width="30"/> [Download my profesional resume](/files/Resume_ROUILLARD_Louis.pdf)
