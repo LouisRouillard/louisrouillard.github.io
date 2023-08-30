@@ -80,15 +80,19 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  name             : "Louis Rouillard"
+  avatar           : "avatar.jpg"
+  bio              : "French Engineer specialized in Machine Learning, I can cover a broad spectrum of competence. I have experience in AI applications Research & Development, up to their effective deployment.
+
+Passionate about “Neuromorphic” technologies -inspired by the human brain- my ultimate objective is to work at the interface between Neurosciences and Artificial Intelligence.For now, I am undertaking a PhD thesis combining Machine Learning, Bayesian inference and Neuroimaging.
+
+Ardent about the field of AI and its promises, I am determined to dedicate my technical skills in productive service to our society and to become one of the useful pioneers for an AI-powered, more responsible, and more equitable world!"
   location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  employer         : Inria
+  pubmed           :
+  googlescholar    :
+  email            : louis.rouillard@gmail.com
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +100,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "LouisRouillard"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : https://www.linkedin.com/in/louis-rouillard/
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : https://stackoverflow.com/users/14249543/louis
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
