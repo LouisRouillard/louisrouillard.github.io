@@ -6,16 +6,7 @@ excerpt: 'Through an original combination of amortization and stochastic trainin
 date: 2023-04-18
 venue: 'Preprint - TMLR'
 paperurl: https://openreview.net/forum?id=vlY9GDCCA6
-citation: '
-@article{
-    anonymous2023pavi,
-    title={{PAVI}: Plate-Amortized Variational Inference},
-    author={Anonymous},
-    journal={Submitted to Transactions on Machine Learning Research},
-    year={2023},
-    url={https://openreview.net/forum?id=vlY9GDCCA6},
-    note={Under review}
-}'
+citation: 'PAVI: Plate-Amortized Variational Inference, Rouillard et al., Preprint'
 ---
 Given observed data and a probabilistic generative model, Bayesian inference searches for the distribution of the model's parameters that could have yielded the data. Inference is challenging for large population studies where millions of measurements are performed over a cohort of hundreds of subjects, resulting in a massive parameter space. This large cardinality renders off-the-shelf Variational Inference (VI) computationally impractical.
 

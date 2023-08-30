@@ -6,15 +6,7 @@ excerpt: 'We automatically derive a variational family dual to a plate-enriched 
 date: 2022-04-25
 venue: 'ICLR 2022'
 paperurl: 'https://openreview.net/forum?id=CgIEctmcXx1'
-citation: '
-@inproceedings{
-    rouillard2022adavi,
-    title={{ADAVI}: Automatic Dual Amortized Variational Inference Applied To Pyramidal Bayesian Models},
-    author={Louis Rouillard and Demian Wassermann},
-    booktitle={International Conference on Learning Representations},
-    year={2022},
-    url={https://openreview.net/forum?id=CgIEctmcXx1}
-}'
+citation: 'ADAVI: Automatic Dual Amortized Variational Inference Applied To Pyramidal Bayesian Models, Rouillard & Wassermann, ICLR2022'
 ---
 Frequently, population studies feature pyramidally-organized data represented using Hierarchical Bayesian Models (HBM) enriched with plates. These models can become prohibitively large in settings such as neuroimaging, where a sample is composed of a functional MRI signal measured on 300 brain locations, across 4 measurement sessions, and 30 subjects, resulting in around 1 million latent parameters.
 
