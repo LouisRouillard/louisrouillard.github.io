@@ -9,51 +9,45 @@ redirect_from:
 
 {% include base_path %}
 
+<img src="/images/download_logo.png" alt="download_logo" width="30"/> [Download my profesional resume](/files/Resume_ROUILLARD_Louis.pdf)
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **[PhD] Inria, MIND team (former Parietal)**, FRANCE
+  * 2020 → *Present*
+  * PhD in structured Variational Inference for large-scale problems
+  * Working under the supervision of Dr Demian Wassermann on the Neurolang project, building a probabilistic logic programming Python library for Neurosciences
+  * Investigating streamlined Bayesian posterior estimation in the context of complex high-dimensional hierarchical models, with applications in Neuroimaging
+  * Developing expressive density estimators lifting graphical model’s structure, and algorithms to automate the detection of such exploitable structure
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **[MSc] Imperial College London**, UK
+  * 2017 → 2018 (1 year)
+  * MSc Human and biological robotics - Distinction - Valedictorian
+  * Majoring in Machine Learning, computational neurosciences, Brain Machine Interfaces and Intelligent Robotics
 
-Publications
+* **[Bachelor & MSc] Ecole Polytechnique**, FRANCE
+  * 2014 → 2018 (3 years)
+  * Ingénieur Polytechnicien & International dual-degree MSc – GPA 3.97/4.0
+
+Profesional experience
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* **Uptime – Data scientist for elevator predictive maintenance**
+  * 2019 → 2020 (6 months)
+  * Fully engineered a custom ML pipeline to collect the data from the company's IoT and using it to perform breakdown detection on elevators.
+  * Engaged in a dual approach, both in an agile software team delivery process, and in an individual R&D process
+  * ML modelling and exploitation of streams of discrete asynchronous events sent by the IoT devices
+  * Also played a role of BI support to provide meaningful insights to the product team through comprehensive, actionable statistical analysis.
+
+* **GrAI Matter Labs – ML & Applications R&D Engineer**
+  * 2018 → 2019 (1 year)
+  * End-to-end design of embedded brain-inspired Machine Learning and algorithmic systems for the chip to perform online in a fast and energy efficient manner
+  * CV - tracking and video classification, event-based processing; NLP, keyword spotting and voice commands; neural networks quantization scheme and ML API design
+
+Research experience
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Imperial College - Master Thesis in Autonomous Robotics**
+  * Summer 2018
+  * Working under the supervision of Prof. Petar Kormushev on the full development of an autonomous Air-Hockey playing robot arm
+  * Designing from scratch image processing tools, Bayesian prediction, motion planning and game strategies for fast-frequency applications
+  * Successful [publication in TAROS](https://www.researchgate.net/publication/334498169_Autonomous_Air-Hockey_Playing_Cobot_Using_Optimal_Control_and_Vision-Based_Bayesian_Tracking) at the end of the thesis on the sole basis of the project
