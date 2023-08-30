@@ -1,11 +1,10 @@
 ---
-permalink: /
+layout: archive
 title: "Research"
-excerpt: "Research"
+permalink: /research/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+  - /thesis
 ---
 
 This is my research.
