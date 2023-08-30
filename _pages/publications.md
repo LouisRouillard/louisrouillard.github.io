@@ -18,7 +18,7 @@ Citation:
 ```
 @article{
 anonymous2023pavi,
-  title={{PAVI}: Plate-Amortized Variational Inference},
+  title={PAVI: Plate-Amortized Variational Inference},
   author={Anonymous},
   journal={Submitted to Transactions on Machine Learning Research},
   year={2023},
@@ -40,7 +40,7 @@ Citation:
 ```
 @inproceedings{
     rouillard2022adavi,
-    title={{ADAVI}: Automatic Dual Amortized Variational Inference Applied To Pyramidal Bayesian Models},
+    title={ADAVI: Automatic Dual Amortized Variational Inference Applied To Pyramidal Bayesian Models},
     author={Louis Rouillard and Demian Wassermann},
     booktitle={International Conference on Learning Representations},
     year={2022},
