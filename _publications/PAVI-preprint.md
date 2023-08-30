@@ -3,7 +3,7 @@ title: "PAVI: Plate-Amortized Variational Inference"
 collection: publications
 permalink: /publication/PAVI-preprint
 excerpt: 'Through an original combination of amortization and stochastic training, we scale inference to very large problems.'
-date: 2023
+date: 2023-04-18
 venue: 'Preprint - TMLR'
 paperurl: https://openreview.net/forum?id=vlY9GDCCA6
 citation: '
