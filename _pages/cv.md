@@ -14,10 +14,10 @@ redirect_from:
 Education
 ======
 
-* **[PhD] Inria, MIND team (former Parietal)**, FRANCE
+* **[PhD] Inria, [MIND team](https://team.inria.fr/mind/) (former Parietal)**, FRANCE
   * 2020 → *Present*
   * PhD in structured Variational Inference for large-scale problems
-  * Working under the supervision of Dr Demian Wassermann on the Neurolang project, building a probabilistic logic programming Python library for Neurosciences
+  * Working under the supervision of [Dr Demian Wassermann](https://pages.saclay.inria.fr/demian.wassermann/) on the Neurolang project, building a probabilistic logic programming Python library for Neurosciences
   * Investigating streamlined Bayesian posterior estimation in the context of complex high-dimensional hierarchical models, with applications in Neuroimaging
   * Developing expressive density estimators lifting graphical model’s structure, and algorithms to automate the detection of such exploitable structure
 
@@ -48,6 +48,6 @@ Research experience
 ======
 * **Imperial College - Master Thesis in Autonomous Robotics**
   * Summer 2018
-  * Working under the supervision of Prof. Petar Kormushev on the full development of an autonomous Air-Hockey playing robot arm
+  * Working under the supervision of [Prof. Petar Kormushev](https://www.imperial.ac.uk/people/p.kormushev) on the full development of an autonomous Air-Hockey playing robot arm
   * Designing from scratch image processing tools, Bayesian prediction, motion planning and game strategies for fast-frequency applications
   * Successful [publication in TAROS](https://www.researchgate.net/publication/334498169_Autonomous_Air-Hockey_Playing_Cobot_Using_Optimal_Control_and_Vision-Based_Bayesian_Tracking) at the end of the thesis on the sole basis of the project
