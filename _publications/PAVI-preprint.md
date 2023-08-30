@@ -16,15 +16,4 @@ We illustrate the practical utility of PAVI through a challenging Neuroimaging e
 
 <img src="/images/download_logo.png" alt="download_logo" width="30"/> [Download paper here](/files/PAVI_preprint.pdf)
 
-Recommended citation:
-```
-@article{
-    anonymous2023pavi,
-    title={{PAVI}: Plate-Amortized Variational Inference},
-    author={Anonymous},
-    journal={Submitted to Transactions on Machine Learning Research},
-    year={2023},
-    url={https://openreview.net/forum?id=vlY9GDCCA6},
-    note={Under review}
-}
-```
+Recommended citation: `PAVI: Plate-Amortized Variational Inference, Rouillard et al., Preprint`

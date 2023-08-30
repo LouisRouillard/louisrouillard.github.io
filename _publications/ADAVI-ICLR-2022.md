@@ -20,14 +20,4 @@ We demonstrate the capability and scalability of our method on simulated data, a
 
 <img src="/images/download_logo.png" alt="download_logo" width="30"/> [Download paper here](/files/ADAVI_ICLR2022.pdf)
 
-Recommended citation:
-```
-@inproceedings{
-    rouillard2022adavi,
-    title={{ADAVI}: Automatic Dual Amortized Variational Inference Applied To Pyramidal Bayesian Models},
-    author={Louis Rouillard and Demian Wassermann},
-    booktitle={International Conference on Learning Representations},
-    year={2022},
-    url={https://openreview.net/forum?id=CgIEctmcXx1}
-}
-```
+Recommended citation: `ADAVI: Automatic Dual Amortized Variational Inference Applied To Pyramidal Bayesian Models, Rouillard & Wassermann, ICLR2022`
