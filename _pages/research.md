@@ -27,10 +27,39 @@ However, the brains of two different subjects can differ a lot from one another.
 
 <img src="/images/Fullcortex.png" alt="fullcortex_parcellation" width="500"/>
 
+Sources:
+```
+Ru Kong, Jingwei Li, Csaba Orban, Mert Rory Sabuncu, Hesheng Liu, Alexander Schaefer, Nanbo Sun, Xi-Nian Zuo, Avram J. Holmes, Simon B. Eickhoff, and B. T. Thomas Yeo. Spatial topography of individual-specific cortical networks predicts human cognition, personality, and emotion. Cerebral cortex, 29 6:2533–2551, 2019.
+
+B. T. Thomas Yeo, Fenna M. Krienen, Jorge Sepulcre, Mert R. Sabuncu, Danial Lashkari, Marisa Hollinshead, Joshua L. Roffman, Jordan W. Smoller, Lilla Zöllei, Jonathan R. Polimeni, Bruce Fischl, Hesheng Liu, and Randy L. Buckner. The organization of the human cerebral cortex estimated by intrinsic functional connectivity. Journal of Neurophysiology, 106(3):1125–1165, 2011.
+```
+
 ## Application: inferring the cytoarchitecture of the brain in vivo
 
 The **cytoarchitecture** of the brain describes the microscopic structure of the cells that compose it —for instance, the size of the neurons in a given tissue or the orientation of their axons. Traditionally, to uncover this information, scientists needed to dissect the brain of a dead individual. Nowadays, **diffusion Magnetic Resonance Imaging** (dMRI) allows us to infer this structure from a brain scan performed in vivo!
 
 However, the link between the cell structure in a given part of the brain and the measured magnetic field is very complex. Different combinations of cytoarchitectural parameters can yield the same signal. Dealing with this inference in a probabilistic manner is thus valuable. Currently, we study brain regions independently, which can result in significant uncertainty. In this project, I hypothesize some **structure linking different brain regions to reduce this uncertainty**. For instance, could we hypothesize that the orientation of the neurons smoothly varies across the brain? Below is an example map of the diffusivity of water molecules across the brain that helps distinguish the grey matter (at the surface of the cortex) from the white matter (below the surface):  
 
-<img src="/images/dMRI_diffusivity.jpg" alt="dMRI_diffusivity" width="100"/>
+<img src="/images/dMRI_diffusivity.jpg" alt="dMRI_diffusivity" width="300"/>
+
+Sources:
+```
+Maëliss Jallais, Pedro Luiz Coelho Rodrigues, Alexandre Gramfort, Demian Wassermann. Inverting brain grey matter models with likelihood-free inference: a tool for trustable cytoarchitecture measurements, Journal of Machine Learning for Biomedical Imaging, pp.1-27, 2022
+
+Powell, E; Battocchio, M; Parker, CS; Slator, PJ. Generalised Hierarchical Bayesian Microstructure Modelling for Diffusion MRI. CDMRI 2021 Proceedings. (pp. 36-47), 2021
+```
+
+## Application: Uncovering the finer relationship between brain regions
+
+As described in the parcellation application, functional Magnetic Resonance Imaging (fMRI) uncovers the function of different brain regions. However, current analysis often limits itself to measures such as correlation that indicate the co-activation of brain regions but not their finer relationship. If two regions co-activate, is this because one activates the other, or the reverse or another region?
+
+In this project, I apply PAVI to fit such dynamic models to fMRI signals and uncover the coupling between different regions. The main difficulty to overcome is that fMRI measures the oxygenation of the blood in a given part of the brain, which is only an indirect proxy of the activity in that region. This so-called hemodynamic response function (HFR) is unknown and can vary across different brain regions. How can we consider this uncertainty when uncovering the coupling between different regions? Below is an example of the uncovered dynamical systems in a rat brain between the Motor cortex, the Insula and the Thalamus (figure from `Ryiali et al. (2016)`):
+
+<img src="/images/optogenetic_MDSI.png" alt="optogenetic_MDSI" width="300"/>
+
+Sources:
+```
+Srikanth Ryali, Kaustubh Supekar, Tianwen Chen, Vinod Menon, Multivariate dynamical systems models for estimating causal interactions in fMRI,  Neuroimage 54(2), 807-23, 2011
+
+Srikanth Ryali ,Yen-Yu Ian Shih, Tianwen Chena, John Kochalka, Daniel Albaugh, Zhongnan Fang, Kaustubh Supekar, Jin Hyung Lee, Vinod Menon, Combining optogenetic stimulation and fMRI to validate a multivariate dynamical systems model for estimating causal brain interactions, NeuroImage 132, 398–405, 2016
+```
