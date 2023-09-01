@@ -17,7 +17,9 @@ One way to tackle inference is through optimization. We can define parametric di
 
 PAVI **shares the learning across repeated structures in the problem** to scale up inference. As an illustration, having inferred the size of the neurons in a given part of the brain, PAVI does not try to solve similar problems from scratch but does so similarly. In this case: inferring the size of the neurons in different brain parts. Because it shares learning, PAVI can perform inference up to a **thousand times faster than off-the-shelf methods**. This reduces the training time from weeks to hours and unlocks inference in large-scale regimes. The following sections describe ongoing Neuroscience projects that exploit PAVI.
 
-Check out <img src="/images/download_logo.png" alt="download_logo" width="30"/> [the PAVI preprint](/files/PAVI_preprint.pdf) for more information
+Check out <img src="/images/download_logo.png" alt="download_logo" width="30"/> [the PAVI preprint](/files/PAVI_preprint.pdf) for more information.
+
+PAVI is the methodological continuation of <img src="/images/download_logo.png" alt="download_logo" width="30"/> [the ADAVI paper](/files/ADAVI_ICLR2022.pdf) published at ICLR 2022.
 
 ## Application: full cortex probabilistic parcellation for a cohort of 1,000 subjects
 
