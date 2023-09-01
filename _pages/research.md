@@ -27,7 +27,9 @@ A parcellation clusters brain regions into different **connectivity networks**: 
 
 However, the brains of two different subjects can differ a lot from one another. Furthermore, the information we have to infer the function of a given brain location for a given subject is scarce. Hence, representing the cartographies of different subjects as only probabilistically known is helpful. See below the result for two subjects amongst a population of a thousand. Using PAVI, we shared the learning across brain regions and subjects and got those maps under **5 hours of computation time** for a parameter space of 400 million! The maps represent as colors the different networks in the brain and the primarily associated function. When the coloring softens, we cannot associate the corresponding region unequivocally with a network:
 
-<img src="/images/Fullcortex.png" alt="fullcortex_parcellation" width="500"/>
+<p align="center">
+  <img src="/images/Fullcortex.png" alt="fullcortex_parcellation" width="500"/>
+</p>
 
 Sources:
 ```
@@ -42,7 +44,9 @@ The **cytoarchitecture** of the brain describes the microscopic structure of the
 
 However, the link between the cell structure and the measured magnetic field is very complex. Different combinations of cytoarchitectural parameters can yield the same signal. Dealing with this inference in a probabilistic manner is thus valuable. Currently, we study brain regions independently, which can result in significant uncertainty. In this project, I hypothesize some **structure linking different brain regions to reduce this uncertainty**. For instance, could we hypothesize that the orientation of the neurons smoothly varies across the brain? Below is an example map of the diffusivity of water molecules across brain tissues that helps distinguish the grey matter (at the surface of the cortex) from the white matter (below the surface):  
 
-<img src="/images/dMRI_diffusivity.jpg" alt="dMRI_diffusivity" width="300"/>
+<p align="center">
+  <img src="/images/dMRI_diffusivity.jpg" alt="dMRI_diffusivity" width="300"/>
+</p>
 
 Sources:
 ```
@@ -57,7 +61,9 @@ As described in the parcellation application, functional Magnetic Resonance Imag
 
 In this project, I apply PAVI to fit such dynamic models to fMRI signals and uncover the coupling between brain regions. The main hurdle is that fMRI measures the **oxygenation of the blood** in a given part of the brain, which is only an indirect proxy of the activity in that region. This so-called hemodynamic response function (HRF) is unknown and can vary across different brain regions. How can we consider this uncertainty when determining the coupling between different regions? Below is an example of the uncovered dynamical systems in a rat brain between the Motor cortex, the Insula and the Thalamus (figure from `Ryiali et al. (2016)`):
 
-<img src="/images/optogenetic_MDSI.png" alt="optogenetic_MDSI" width="300"/>
+<p align="center">
+  <img src="/images/optogenetic_MDSI.png" alt="optogenetic_MDSI" width="300"/>
+</p>
 
 Sources:
 ```
